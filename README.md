@@ -1,0 +1,1 @@
+in this repo im going to explain some of the vulns i found in owasp juiceshop feel free to use .YAML files to configure your artillery and start testing applications if they are weak against Ddos attacks but beaware as artillery puts heavy load on the CPU use it carefully 
