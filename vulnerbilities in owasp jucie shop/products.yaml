@@ -1,0 +1,12 @@
+config:
+  target: "https://demo.owasp-juice.shop"   # <--- REMOTE INSTANCE HERE
+  phases:
+    - duration: 30
+      arrivalRate: 5
+
+scenarios:
+  - flow:
+      - get:
+          url: "/"
+      - get:
+          url: "/rest/products"
